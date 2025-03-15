@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C2FFC7;
+    color: #526E48;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #62825D;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    background: #9EDF9C;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-container label {
+    margin: 10px 0;
+  }
+  
+  .form-container input,
+  .form-container select {
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .form-container button {
+    background-color: #62825D;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .recommendations-container {
+    background: #526E48;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .recommendations-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recommendations-container li {
+    margin: 10px 0;
+  }
+  
