@@ -108,24 +108,37 @@ header img{
 .grid-2 div:nth-child(4){
     grid-column: 1 / 4;
     grid-row: 6;
+/* Grid layout */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center; /* Center content horizontally in each grid item */
+    align-items: center; /* Center content vertically in each grid item */
+    padding: 20px;
 }
-.grid-3{
-    --row: 6;
-    font-size: 10em;
+
+.grid-3 div {
+    font-size: inherit; /* Inherit font size from inline style in HTML */
+    text-align: left; /* Align text to the left within the div */
+    width: 100%; /* Ensure the text takes up full width within the grid item */
+    padding: 10px;
 }
-.grid-3 div{
-    grid-column: 2/ 6;
-    text-wrap: nowrap;
+
+/* Ensure that all the text stays aligned within each grid item */
+.grid-3 div:nth-child(even) {
+    text-align: left; /* Left-align text for even child divs */
 }
-.grid-3 div:nth-child(even){
-    text-align: right;
+
+/* Specific adjustments for the grid items */
+.grid-3 div:nth-child(5) {
+    grid-column: span 3; /* Make the last element span all columns if needed */
 }
-.grid-3 div:nth-child(5){
-    grid-column: 1/ 6;
+
+.grid-3 div:nth-child(4) {
+    grid-column: span 3; /* Make the 4th element span all columns if needed */
 }
-.grid-3 div:nth-child(4){
-    grid-column: 1/ 7;
-}
+
 footer{
     border-top: 1px solid #2E373A55;
     min-height: 100vh;
