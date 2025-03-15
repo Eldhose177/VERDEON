@@ -1,0 +1,21 @@
+Material Type,Dimensions (cm),Packaging Method,Recyclable,Compostable
+Cardboard,50-100,Box,True,False
+Plastic,30-60,Bottle,True,False
+Glass,10-30,Bottle,True,False
+Metal,20-50,Cans,True,False
+Wood,100-200,Plank,True,False
+Biodegradable Plastic,10-40,Wrap,False,True
+Paper,30-60,Box,True,True
+Fabric,50-150,Roll,False,True
+Aluminum,30-80,Can,True,False
+Steel,10-60,Sheet,True,False
+Eco-Friendly Plastic,20-70,Wrap,True,True
+Rubber,40-100,Roll,False,False
+Cotton,25-100,Fabric Bag,False,True
+Jute,30-80,Fabric Bag,True,True
+Bamboo,50-120,Plank,True,False
+Hemp,40-100,Roll,True,True
+Polystyrene,10-30,Pack,False,False
+Recycled Plastic,30-70,Bottle,True,False
+Foam,20-60,Pack,False,False
+Textile,40-120,Fabric,True,True
